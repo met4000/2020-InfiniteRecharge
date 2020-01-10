@@ -4,7 +4,7 @@ pluginManagement {
     repositories {
         mavenLocal()
         gradlePluginPortal()
-        String frcYear = '2019'
+        String frcYear = '2020'
         File frcHome
         if (OperatingSystem.current().isWindows()) {
             String publicFolder = System.getenv('PUBLIC')
@@ -24,6 +24,6 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'CurtinFRC2019'
+rootProject.name = 'UWAFRC2020'
 
-include 'common', 'wml', '5333', '5663', 'Testbot', 'vision'
+include 'common', 'wml', '8035', 'Testbot', 'vision'
