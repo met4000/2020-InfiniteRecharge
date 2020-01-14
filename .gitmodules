@@ -1,3 +1,3 @@
-[submodule "wml"]
-	path = wml
+[submodule "WML"]
+	path = WML
 	url = https://github.com/wml-frc/WML.git
