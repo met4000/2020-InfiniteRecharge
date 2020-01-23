@@ -25,3 +25,6 @@ pluginManagement {
         }
     }
 }
+
+rootProject.name = 'CurtinFRC2020'
+include '8035'//, 'wml'
