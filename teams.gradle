@@ -62,12 +62,15 @@ model {
             sources.cpp {
                 source {
                     srcDir 'src/main/cpp'
+                    srcDir '../WML/src/main/cpp'
                     include '**/*.cpp', '**/*.cc'
                 }
                 exportedHeaders {
                     srcDir 'src/main/include'
+                    srcDir '../WML/src/main/include'
                     if (includeSrcInIncludeRoot) {
                         srcDir 'src/main/cpp'
+                        srcDir '../WML/src/main/cpp'
                     }
                 }
                 // binaries.all {
