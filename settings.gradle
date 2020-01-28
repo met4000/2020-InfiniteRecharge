@@ -26,5 +26,5 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'CurtinFRC2020'
+rootProject.name = 'UWAFRC2020'
 include '8035'//, 'wml'
