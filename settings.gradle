@@ -26,5 +26,5 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'UWAFRC2020'
+rootProject.name = 'UWA-FRC-2020'
 include '8035'//, 'wml'
